@@ -1,4 +1,4 @@
-@use 'variables' as v; 
+@use 'variables' as v;
 
 /** Media Queries **/
 @mixin telefono {
@@ -12,13 +12,12 @@
         @content;
     }
 }
-  
+
 @mixin desktop {
     @media (min-width: v.$desktop) {
         @content;
     }
 }
-
 
 @mixin boton($color, $texto) {
     background-color: $color;
